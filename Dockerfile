@@ -1,4 +1,3 @@
-FROM nginx:latest
-CMD apt-get update -y
+FROM nginx:alpine
 COPY dist /usr/share/nginx/html 
 
